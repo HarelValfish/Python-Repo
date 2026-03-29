@@ -65,3 +65,59 @@
 # while i != pswrd:
 #     i = user_input = int(input("Enter password: "))
 # print("correct")
+
+# #10
+
+# i = "y"
+# while i == "y":
+#     i = input("Continue? (y/n): ")
+# print("Stopped")
+
+# #11
+
+# i = 0
+# while i < 10:
+#     i = i + 2
+#     print(i)
+
+# #12
+
+# i = 0
+# count = 0
+# while i < 20:
+#     i = i + 2
+#     count = count + 1
+# print(count)
+
+# #13
+
+# i = 1
+# total = 0
+# while i <= 10:
+#     if i % 3 == 0:
+#         total = total + i
+#         print(i)
+#     i += 1
+# print(total)
+
+# #14
+
+# num = 0
+# while True:
+#     num = int(input("Enter a number: "))
+#     if num % 2 == 0:
+#         print(f"{num} is even")
+#     else:
+#         print(f"{num} is odd")
+
+# #15
+
+# count = 1
+# max_num = 0
+# while count <= 5:
+#     num = int(input("Enter a number: "))
+#     if num > max_num:
+#         max_num = num
+#         print("New largest number.")
+#     count = count + 1
+# print("The largest number is:",max_num)
