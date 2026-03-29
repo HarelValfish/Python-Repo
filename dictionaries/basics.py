@@ -29,12 +29,12 @@ human_philip = {
 }
 print(human_philip["age"]) #gets the age of the philip
 
-philip_list = [
-    ("name", "Philip"),
-    ("age", 24),
-    ("color", "ASHKENAZ"),
-    ("occupation", "Junior DevOps Engineer"),
-    ("is_cool", True),
-    ("hobbies", ["Army", "Gaming", "Cars"]),
-]
-print(philip_list[1][1]) #searches in a specific table for a value
+# philip_list = [
+#     ("name", "Philip"),
+#     ("age", 24),
+#     ("color", "ASHKENAZ"),
+#     ("occupation", "Junior DevOps Engineer"),
+#     ("is_cool", True),
+#     ("hobbies", ["Army", "Gaming", "Cars"]),
+# ]
+# print(philip_list[1][1]) #searches in a specific table for a value
