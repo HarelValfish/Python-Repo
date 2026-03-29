@@ -4,9 +4,9 @@ accounts = [
 ]
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "123456"
+
 def find_account(account_id):
-    for account in accounts:
-        # Check if the ID in the current dictionary matches the one we are looking for
+    for account in accounts: # Check if the ID in the current dictionary matches the one we are looking for
         if account["account_id"] == account_id:
             return account  # Found it! Return the whole dictionary
     return None  # If the loop ends without finding a match
@@ -86,7 +86,6 @@ def create_account():
         "pin": pin,
         "balance": 0
     }
-
     accounts.append(account)
 
 def show_all_accounts():
@@ -109,6 +108,7 @@ while True:
     print("1.Create 2.Deposit 3.Withdraw 4.Show 5.Admin View 6.Exit")
 
     choice = input("Choose: ")
+    print()
 
     if choice == "1":
         create_account()
